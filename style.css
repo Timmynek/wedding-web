@@ -1,0 +1,407 @@
+/* ----------- GLOBALS ----------- */
+* {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #868e96;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.content {
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 335px;
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.sub-heading {
+    width: 590px;
+    font-size: 20px;  
+    display: inline-block;
+    line-height: 2em;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 32px;
+    color: #212529;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.dark {
+    padding: 10.5em 0;
+}
+
+.dark p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dark h2 {
+    font-size: 62px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #ffffff;
+    margin-bottom: 0em;
+    vertical-align: middle;
+}
+
+.btn {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    padding: 1.5em 1.2em; 
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+section {
+    text-align: center;
+}
+
+/* ----------- NAVBAR ----------- */
+
+#navbar {
+    text-align: center;
+}
+
+.navbar-nav {
+    padding-left: 0;
+}
+
+#navbar a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+
+/* ----------- SECTION-HOME ----------- */
+
+#section-home {
+    height: 95vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 0;
+}
+
+#section-home h1 {
+    font-size: 62px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 8px;
+    margin-top: 0;
+ }
+
+#section-home p {
+    padding-bottom: 2.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+[role=button] {
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+[role=button]:hover {
+    background-color: #ffffff;
+    color: #868e96;
+}
+
+/* ----------- SECTION-ABOUT ----------- */
+
+#section-about {
+    padding-top: 9em;
+    overflow: hidden;
+    background-color: white;
+}
+
+#section-about h2 {
+    margin-top: 0;
+}
+
+#section-about .photos {
+    display: flex;
+    width: 66.66%;
+    float: left;
+}
+
+#section-about .photos p {
+    padding: 15px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#section-about .descript {
+    float: left;
+    width: 33.33%;
+    min-width: 350px;
+    text-align: left;
+    padding-left: 3em;
+}
+
+#section-about .descript p {
+    line-height: 1.7em;
+}
+
+#section-about .linkdown {
+    color: #ee0427;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+#section-about .linkdown:hover {
+    color: #005dd0;
+}
+
+/* ----------- SECTION-MENU ----------- */
+
+#section-menu {
+    padding-top: 12em;
+    padding-bottom: 7em;
+    background-color: white;
+}
+
+#section-menu .tabs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 0;
+}
+
+#section-menu .tabs li {
+    display: inline;
+}
+
+#section-menu .tabs .btn {
+    border: 1px solid #E8E8E8;
+    margin-left: 15px;
+}
+
+#section-menu .tabs .active {
+    border-width: 1px;
+    border-color: black;
+}
+
+#section-menu .menucols ul{
+    float: left;
+    width: 50%;
+    min-width: 500px;
+    list-style: none;
+    text-align: left;
+    padding: 0 20px;
+}
+
+#section-menu .menuitem {
+    float: left;
+    padding-right: 2em;
+}
+
+#section-menu .menuitem h3 {
+    font-size: 18px;
+    color: #212529;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+}
+
+#section-menu .menuitem p {
+    margin-top: 0.8em;
+    margin-bottom: 2em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#section-menu .price {
+    float: right;
+}
+
+#section-menu .price span {
+    color: #212529;
+}
+
+#section-menu .price span sup {
+    font-size: 13px;
+    color: inherit;
+}
+
+/* ----------- SECTION-GALLERY ----------- */
+
+#section-gallery {
+    padding: 8em 0;
+    background-color: white;
+}
+
+#section-gallery .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#section-gallery .photos {
+    display: flex;
+    float: left;
+}
+
+#section-gallery .photos p {
+    padding: 15px;
+    width: 33.33%;
+}
+
+/* ----------- SECTION-TESTIMONIALS ----------- */
+
+#section-testimonials {
+    background-color: #e4f8f4;
+    background-size: cover;
+    padding: 8em 0;
+}
+
+#section-testimonials .testimonial {
+    width: 33.33%;
+    float: left;
+}
+
+#section-testimonials .nick {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#section-testimonials blockquote {
+    font-family: Crimson Text;
+    font-size: 20px;
+    color: #212529;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#section-testimonials blockquote::before {
+    content: "\201C";
+    font-size: 100px;
+    display: block;
+    height: 80px;
+    color: #212529;
+}
+
+/* ----------- SECTION-TASTE ----------- */
+
+#section-taste {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
+/* ----------- SECTION-EVENTS ----------- */
+
+#section-events {
+    padding-top: 6em;
+    padding-bottom: 12em;
+    background-color: #F8F8F8;
+}
+
+#section-events .card {
+    width: 33.33%;
+    min-width: 350px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+#section-events .card-img-top {
+    width: 340px;
+    height: 200px;
+}
+
+#section-events .card-body {
+    background-color: #ffffff;
+    width: 340px;
+    height: 310px;
+    text-align: left;
+    line-height: 1.7em;
+    padding: 2em 3em;
+}
+
+#section-events .card-body small {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#section-events .card-body h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#section-events .card-body h4 a {
+    font-size: 25px;
+    color: #ee0427;
+    font-weight: lighter;
+    letter-spacing: normal;
+}
+
+#section-events .card-body h4 a {
+    font-size: 25px;
+    color: #ee0427;
+    font-weight: lighter;
+    letter-spacing: normal;
+}
+
+#section-events .card-body h4 a:hover {
+    color: #005dd0;
+}
+
+#section-events .card-body p {
+    margin-top: 0.3em;
+}
+
+/* ----------- FOOTER ----------- */
+
+#footer {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#footer p {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer a {
+    font-size: unset;
+    color: black;
+    letter-spacing: normal;
+}
+
+#footer a:hover {
+    color: #005dd0;
+}
