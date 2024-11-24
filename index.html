@@ -1,221 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>The Big Restaurant</title>
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400, 600, 700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body id="page-top">
-<div id="main">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>uiCookies:Wedding &mdash; Free Bootstrap Theme, Free HTML5 Template, Free Responsive Bootstrap Website Template</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link href="https://fonts.googleapis.com/css?family=Alice|Zilla+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
 
-<nav id="navbar">
-	<div class="content">
-		<ul class="navbar-nav">
-			<li><a href="#section-home">Home</a></li>
-			<li><a href="#section-about">About</a></li>
-			<li><a href="#section-menu">Menu</a></li>
-			<li>
-				<a href="index.html">
-				<img src="img/logo.png" alt="Instant Logo">
-				</a>
-			</li>
-			<li><a href="#section-gallery">Gallery</a></li>
-			<li><a href="#section-events">Events</a></li>
-			<li><a href="#section-testimonials">Contact</a></li>
-		</ul>
-	</div>
-</nav>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+     <!-- navbar-fixed-top -->
+    <nav class="navbar navbar-default probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="uiCookies:Wedding">Tereza <em>&amp;</em> Jakub</a>
+        </div>
 
-<section id="section-home" class="dark">
-	<div class="content">
-		<h1>The Big Restaurant</h1>
-		<p class="sub-heading">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		<p><a href="#section-contact" role="button" class="btn">Reserve a table</a></p>
-	</div>
-</section>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="home">Domů</a></li>
+            <li><a href="#" data-nav-section="groom-bride">O Nás</a></li>
+            <li><a href="#" data-nav-section="when-where">Kdy &amp; Kde</a></li>
+            <li><a href="#" data-nav-section="info">Informace</a></li>
+            <li><a href="#" data-nav-section="rsvp">Potvrzení Účasti</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <section class="flexslider" data-section="home">
+      <div class="container text-intro-wrap">
+        <div class="row">
+          <div class="col-md-12 text-center text-intro probootstrap-animate">
+            <h1>Tereza <em>&amp;</em> Jakub</h1>
+            <h2>Budeme se brát 26. dubna 2025 v 11:00</h2>
+          </div>
+        </div>
+      </div>
+      <ul class="slides">
+        <li style="background-image: url(img/hero_bg_1.jpg)" data></li>
+        <li style="background-image: url(img/hero_bg_2.jpg)"></li>
+        <li style="background-image: url(img/hero_bg_3.jpg)"></li>
+      </ul>
+    </section>
 
-<section id="section-about">
-	<div class="content">
-		<div class="photos">
-			<p><img src="img/img_1.jpg" alt="Instant Image" class="img-fluid"></p>
-			<p><img src="img/img_2.jpg" alt="Instant Image" class="img-fluid"></p>
-		</div>
-		<div class="descript">
-			<h2>The Restaurant</h2>
-			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    <section class="probootstrap-section probootstrap-section-colored probootstrap-wedding-countdown">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate"><h4>Svatební Odpočet</h4></div>
+          <div class="col-md-12 probootstrap-animate">
+            <div class="date-countdown"></div>  
+          </div>
+        </div>
+      </div>
+    </section>
 
-			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-			<p><a href="#section-menu" class="linkdown">See our menu</a></p>
-		</div>
-	</div>
-</section>
-<!-- END section -->
+    <section class="probootstrap-section probootstrap-bg" data-section="groom-bride">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 probootstrap-groom-bride">
+            
+            <div class="probootstrap-groom probootstrap-animate">
+              <figure>
+                <img src="img/groom_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+              </figure>
+            </div>
 
-<section id="section-menu">
-	<div class="content">
-		<h2>Menu</h2>
+            <div class="probootstrap-divider probootstrap-animate"><span>&amp;</span></div>
 
-			<ul class="tabs" role="tablist">
-				<li><a class="active btn" href="#food" role="tab">Food</a></li>
-				<li><a class="btn" href="#drinks" role="tab">Drinks</a></li>
-				<li><a class="btn" href="#salads" role="tab">Salads</a></li>
-			</ul>
+            <div class="probootstrap-bride probootstrap-animate">
+              <figure>
+                <img src="img/bride_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+              </figure>
+            </div>
 
-			<!-- Tab panes -->
-			<div class="menucols">
-				<ul>
-					<li>
-						<div class="menuitem">
-							<h3>Eggplant Parmiagana</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>13.95</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Fried Calamari</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>15.50</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Sausage and Pepper</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>17.35</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Potato and Egg</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>11.50</span></div>
-					</li>
-				</ul>
-				
-				<ul>
-					<li>
-						<div class="menuitem">
-							<h3>Eggplant Parmiagana</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>20.75</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Fried Calamari</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>18.00</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Sausage and Pepper</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>10.25</span></div>
-					</li>
-					<li>
-						<div class="menuitem">
-							<h3>Potato and Egg</h3>
-							<p>Far far away, behind the word mountains..</p>
-						</div>
-						<div class="price"><span><sup>$</sup>21.95</span></div>
-					</li>
-				</ul>
-			</div>
-		</div>
-</section>
+          </div>
+        </div>
 
-<section class="dark">
-	<div class="content">
-		<h2>Delicious &amp; Nutritious</h2>
-		<p class="sub-heading">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	</div>
-</section>
+        <div class="row mb40">
+          <div class="col-md-12 text-center">
+            <h2 class="mt0 mb10 probootstrap-animate">O nás</h2>
+            <p>adfasdfasdfsdf.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="section-gallery">
-	<div class="content">
-		<h2>Gallery</h2>
-		<div class="photos">
-			<p><img src="img/img_1.jpg" alt="Instant Image" class="img-fluid"></p>
-			<p><img src="img/img_2.jpg" alt="Instant Image" class="img-fluid"></p>
-			<p><img src="img/img_1.jpg" alt="Instant Image" class="img-fluid"></p>
-		</div>
-	</div>
-</section>
+    <div class="probootstrap-section probootstrap-section-colored" data-section="when-where">
+      <div class="container">
+        <div class="row mb40 text-center">
+          <div class="col-md-12 probootstrap-animate">
+            <h2 class="mt0">Kdy &amp; Kde</h2>
+            <h3>26.4.2025 v 11:00 u rybníka v Lysovicích</h3>
+            <p>Okouzlilo nás tohle místo, které se nachází kousek za Brnem. Zde se bude konat obřad, hositna i zábava. Celý komplex bude vyhrazený pouze pro nás.</p>
+          </div>
+        </div>
 
-<section id="section-testimonials">
-	<div class="content">
-		<h2>What People Say...</h2>
-		<div class="testimonial">
-			<blockquote>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</blockquote>
-			<img class="rounded-circle" src="img/person_1.jpg" alt="Generic placeholder image">
-			<p class="name">Garry Alexander</p>
-			<p class="nick">@garry</p>
-		</div>
-		<div class="testimonial">
-			<blockquote>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</blockquote>
-			<img class="rounded-circle" src="img/person_5.jpg" alt="Generic placeholder image">
-			<p class="name">Deborah Smith</p>
-			<p class="nick">@deborah</p>
-		</div>
-		<div class="testimonial">
-			<blockquote>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</blockquote>
-			<img class="rounded-circle" src="img/person_2.jpg" alt="Generic placeholder image">
-			<p class="name">James Robertsonr</p>
-			<p class="nick">@james</p>
-		</div>
-	</div>
-</section>
+        <div class="row mb40 text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4383.758733493724!2d16.974680219398525!3d49.20817495189465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712e5ac15673be1%3A0x114340fc07fd7725!2sLysovick%C3%BD%20rybnik!5e0!3m2!1scs!2scz!4v1732458717443!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
 
-<section class="dark" id="section-taste">
-	<div class="content">
-		<h2>Good Food, Good Taste</h2>
-		<p class="sub-heading">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	</div>
-</section>
+    <section class="probootstrap-section" data-section="info">
+      <div class="container">
+        <div class="row mb40 text-center">
+          <div class="col-md-12 probootstrap-animate"><h2 class="mt0">Informace</h2></div>
+        </div>
 
-<section id="section-events">
-	<div class="content">
-		<h2>Events</h2>
-		<div class="card-deck">
-			<div class="card">
-				<img class="card-img-top" src="img/event.jpg" alt="Image caption here">
-				<div class="card-body">
-					<small>December 2nd, 2019</small>
-					<h4><a href="#">Thanksgiving and Reflections</a></h4>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="img/event.jpg" alt="Image caption here">
-				<div class="card-body">
-					<small>December 10th, 2019</small>
-					<h4><a href="#">Maker of Monday</a></h4>
-					<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="img/event.jpg" alt="Image caption here">
-				<div class="card-body">
-					<small>December 23rd, 2019</small>
-					<h4><a href="#" class="text-danger">Family and Kids Promo</a></h4>
-					<p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+          <div class="row">
+            <div class="col-md-6 probootstrap-animate">  
+              <h3>Doprava</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+      
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <h3>Ubytování</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
+            </div>
+          </div>
 
-<footer id="footer">
-	<div class="content">
-		<p>&copy; 2017 Instant. All Rights Reserved. Designed by <a href="https://uicookies.com/">uiCookies</a></p>
-	</div>
-</footer>
+          <div class="row">
+            <div class="col-md-6 probootstrap-animate">  
+              <h3>Dress code</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+      
+            </div>
+            <div class="col-md-6 probootstrap-animate">
+              <h3>Dary</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
+            </div>
+          </div>
 
-</div> <!-- .main -->
-</body>
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <h3>Harmonogram</h3>
+              <img src="img/harmonogram.png" alt="Harmonogram" class="img-responsive img-centered">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <h3>Důležité osoby</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 probootstrap-animate">
+              <figure>
+                <img src="img/groom_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded">
+              </figure>
+              <h4 class="text-center">Jake Wilson</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+
+            <div class="col-md-6 probootstrap-animate">
+              <figure>
+                <img src="img/bride_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive img-rounded">
+              </figure>
+              <h4 class="text-center">Kate Marie</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <h3>Svatební menu</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth question ran over her cheek, then she continued her way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-border-top" data-section="rsvp">
+      <div class="container">
+        <div class="row mb40">
+          <div class="col-md-12 text-center">
+            <h2 class="mt0 mb10 probootstrap-animate">Přijdete?</h2>
+            <p>Vyplněním formuláře nám dáváte vědět, že dorazíte, s kým dorazíte a důležité informace o Vás. Díky zanechanému emailu Vám budeme moci před konáním svatby zaslat podrobné informace a po svatbě pak fotky.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="probootstrap-card probootstrap-animate">
+              <form class="probootstrap-form">
+                <div class="form-group">
+                  <label for="name">Jméno</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="additional-guests">Doprovod (včetně dětí)</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="allergens">Informace o alergenech/Další info, co by nás mělo zajímat</label>
+                  <textarea name="" id="note" cols="20" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-primary btn-lg" value="Odeslat">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="probootstrap-footer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            &copy; 2017 <a href="https://uicookies.com/">uiCookies:Wedding</a>. All Rights Reserved. Designed &amp; Developed by <a href="https://uicookies.com">uicookies.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+  </body>
 </html>
