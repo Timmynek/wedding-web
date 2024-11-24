@@ -647,6 +647,19 @@ a:hover, a:focus, a:active {
   margin-right: auto;
 }
 
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
 .probootstrap-image {
   display: block;
   overflow: hidden;
