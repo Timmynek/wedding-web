@@ -639,6 +639,7 @@ a:hover, a:focus, a:active {
 
 .img-rounded {
   border-radius: 50%;
+  width: 75%;
 }
 
 .img-centered {
