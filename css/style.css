@@ -85,6 +85,16 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+.underlined {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.underlined:hover, .underlined:focus, .underlined:active {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
 .probootstrap-navbar {
   border: none;
   -webkit-box-shadow: none;
@@ -326,6 +336,7 @@ a:hover, a:focus, a:active {
   .probootstrap-navbar .navbar-nav > li > a {
     padding-top: 8px !important;
     padding-bottom: 8px !important;
+    padding-left: 16px !important;
     color: rgba(0, 0, 0, 0.7);
   }
 }
