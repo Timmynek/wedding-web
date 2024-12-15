@@ -570,6 +570,12 @@ a:hover, a:focus, a:active {
   transform: translateY(-50%);
 }
 
+@media screen and (max-width: 768px) {
+  .text-intro-wrap {
+    top: 70%;;
+  }
+}
+
 .text-intro-wrap .text-intro h1 {
   color: #ffffff;
   font-weight: 700;
