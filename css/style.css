@@ -23,7 +23,7 @@ body {
   color: #8b8e94;
   line-height: 1.7;
   font-size: 18px;
-  font-family: "Alice", serif;
+  font-family: "Noto Serif", serif;
 }
 
 ::-moz-selection {
@@ -52,6 +52,13 @@ h1, h2, h3, .text-intro-wrap .text-intro h2, h4 {
 h1 {
   margin-top: 0;
   font-size: 3.998em;
+  font-family: "Dancing Script";
+}
+
+.the-nautigal-regular {
+  font-family: "The Nautigal", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -93,6 +100,33 @@ a:hover, a:focus, a:active {
 .underlined:hover, .underlined:focus, .underlined:active {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
+}
+
+.noto-serif-asd {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar-names {
+  font-family: 'The Nautigal', serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+}
+
+.navbar-names:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-names {
+    font-size: 35px;
+  }
 }
 
 .probootstrap-navbar {
@@ -158,9 +192,9 @@ a:hover, a:focus, a:active {
   opacity: 1;
 }
 
-.probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-nav > li > a {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-names, .probootstrap-navbar .navbar-nav > li > a {
+  padding-top: 35px;
+  padding-bottom: 30px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 15px;
@@ -168,7 +202,7 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-nav > li > a {
+  .probootstrap-navbar .parent-nav-link-padding, .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-names, .probootstrap-navbar .navbar-nav > li > a {
     padding-top: 25px !important;
     padding-bottom: 25px !important;
   }
@@ -306,14 +340,15 @@ a:hover, a:focus, a:active {
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-navbar .navbar-brand {
+  .probootstrap-navbar .navbar-brand, .probootstrap-navbar .navbar-names {
     color: #000000;
     line-height: 0;
+    top: 10px;
   }
 }
 
 .probootstrap-navbar .navbar-brand em {
-  font-family: "Alice", serif;
+  font-family: "Noto Serif", serif;
 }
 
 .probootstrap-navbar .navbar-nav > li > a {
@@ -321,6 +356,7 @@ a:hover, a:focus, a:active {
   font-size: 15px;
   position: relative;
   text-transform: uppercase;
+  font-family: "Zilla Slab", serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -362,6 +398,7 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .navbar-nav > li.active > a {
   background: none;
   color: #ffffff;
+  font-family: "Zilla Slab", serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -487,6 +524,10 @@ a:hover, a:focus, a:active {
   color: #000000;
 }
 
+.probootstrap-navbar.scrolled .navbar-names {
+  color: #000000;
+}
+
 .probootstrap-navbar.scrolled .dropdown > a:before {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -521,27 +562,25 @@ a:hover, a:focus, a:active {
 .text-intro-wrap .text-intro h1 {
   color: #ffffff;
   font-weight: 700;
-  font-size: 110px;
+  font-size: 130px;
   line-height: 100px;
   margin: 0;
-  text-transform: uppercase;
 }
 
 .text-intro-wrap .text-intro h1 em {
-  font-family: "Alice", serif;
+  font-family: "Noto Serif", serif;
 }
 
 @media screen and (max-width: 768px) {
   .text-intro-wrap .text-intro h1 {
-    font-size: 85px;
+    font-size: 100px;
     line-height: 75px;
   }
 }
 
 .text-intro-wrap .text-intro h2 {
   color: #ffffff;
-  font-family: "Alice", serif;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .probootstrap-wedding-countdown h4 {
@@ -1377,7 +1416,7 @@ a:hover, a:focus, a:active {
   font-size: 72px;
   line-height: 60px !important;
   text-transform: uppercase;
-  font-family: "Alice", serif;
+  font-family: "Noto Serif", serif;
 }
 
 .date-countdown > div .simply-word {
